@@ -166,12 +166,17 @@ def main():
         [-1, 5, 4, -3]
     ]
 
+    # aug_matrix = [
+    #     [2, 3, -1, 5],
+    #     [4, -2, 1, 1],
+    #     [-2, 1, 2, 3]
+    # ]
+
     solution = gaussian_elimination_solve(aug_matrix)
     print("1) Solution to the system [Gaussian Elimination]:")
     for i, val in enumerate(solution):
         # Print the float directly (no rounding or formatting)
-        int_val = int(round(val))
-        print("   x{} =".format(i+1), int_val)
+        print("   x{} =".format(i+1), val)
     print()
 
     # 2) LU Factorization

@@ -16,8 +16,8 @@ cOT-450d-a3b/
 │ │ └─ init.py
 │ │ └─ assignment_3.py
 │ └─ test/
-│ └─ init.py
-│ └─ test_assignment_3.py
+│   └─ init.py
+│   └─ test_assignment_3.py
 ├─ requirements.txt
 └─ README.md
 ```
